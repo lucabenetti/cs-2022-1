@@ -2,48 +2,37 @@
 {
     public class QuickSortRecursivo
     {
-        public int Partition(int[] arr, int left, int right)
+		public void Sort(ref int[] data, int left, int right)
         {
-            int pivot;
-            pivot = arr[left];
-            while (true)
+            if (left < right)
             {
-                while (arr[left] < pivot)
-                {
-                    left++;
-                }
-                while (arr[right] > pivot)
-                {
-                    right--;
-                }
-                if (left < right)
-                {
-                    int temp = arr[right];
-                    arr[right] = arr[left];
-                    arr[left] = temp;
-                }
-                else
-                {
-                    return right;
-                }
+                int q = Partition(ref data, left, right);
+                Sort(ref data, left, q - 1);
+                Sort(ref data, q + 1, right);
             }
         }
 
-        public void Sort(int[] arr, int left, int right)
+        private static int Partition(ref int[] data, int left, int right)
         {
-            int pivot;
-            if (left < right)
+            int pivot = data[right];
+            int temp;
+            int i = left;
+
+            for (int j = left; j < right; ++j)
             {
-                pivot = Partition(arr, left, right);
-                if (pivot > 1)
+                if (data[j] <= pivot)
                 {
-                    Sort(arr, left, pivot - 1);
-                }
-                if (pivot + 1 < right)
-                {
-                    Sort(arr, pivot + 1, right);
+                    temp = data[j];
+                    data[j] = data[i];
+                    data[i] = temp;
+                    i++;
                 }
             }
+
+            data[right] = data[i];
+            data[i] = pivot;
+
+            return i;
         }
-    }
+	}
 }

@@ -9,9 +9,14 @@ namespace Tarefa12
         {
             try
             {
+                Console.WriteLine("Digite o primeiro número");
                 var dividendo = Convert.ToDecimal(Console.ReadLine());
+
+                Console.WriteLine("Digite o segundo número");
                 var divisor = Convert.ToDecimal(Console.ReadLine());
+
                 var resultado = (dividendo / divisor);
+                Console.WriteLine(resultado);
             }
 
             catch (FormatException exception)

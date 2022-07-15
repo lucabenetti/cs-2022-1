@@ -2,6 +2,11 @@
 
 namespace Endereco.Concreta
 {
+    /// <summary>
+    /// Autor: Luca
+    /// Data: 15/07/2022
+    /// Classe: Endereco
+    /// </summary>
     public class Endereco
     {
         public Bairro Bairro { get; set; }

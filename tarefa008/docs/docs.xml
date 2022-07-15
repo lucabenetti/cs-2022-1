@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Endereco</name>
+    </assembly>
+    <members>
+        <member name="T:Endereco.Concreta.Bairro">
+            <summary>
+            Autor: Luca
+            Data: 15/07/2022
+            Classe: Bairro
+            </summary>
+        </member>
+        <member name="T:Endereco.Concreta.Cidade">
+            <summary>
+            Autor: Luca
+            Data: 15/07/2022
+            Classe: Cidade
+            </summary>
+        </member>
+        <member name="T:Endereco.Concreta.Endereco">
+            <summary>
+            Autor: Luca
+            Data: 15/07/2022
+            Classe: Endereco
+            </summary>
+        </member>
+        <member name="T:Endereco.Concreta.Estado">
+            <summary>
+            Autor: Luca
+            Data: 15/07/2022
+            Classe: Estado
+            </summary>
+        </member>
+        <member name="T:Endereco.Concreta.Logradouro">
+            <summary>
+            Autor: Luca
+            Data: 15/07/2022
+            Classe: Logradouro
+            </summary>
+        </member>
+        <member name="T:Endereco.Concreta.Pais">
+            <summary>
+            Autor: Luca
+            Data: 15/07/2022
+            Classe: Pais
+            </summary>
+        </member>
+        <member name="T:Endereco.Concreta.PessoaFisica">
+            <summary>
+            Autor: Luca
+            Data: 15/07/2022
+            Classe: PessoaFisica
+            </summary>
+        </member>
+        <member name="T:Endereco.Enum.TipoEnderecoEnum">
+            <summary>
+            Autor: Luca
+            Data: 15/07/2022
+            Classe: TipoEnderecoEnum
+            </summary>
+        </member>
+        <member name="T:Endereco.Enum.TipoLogradouroEnum">
+            <summary>
+            Autor: Luca
+            Data: 15/07/2022
+            Classe: TipoLogradouroEnum
+            </summary>
+        </member>
+        <member name="T:Endereco.Interface.IEndereco">
+            <summary>
+            Autor: Luca
+            Data: 15/07/2022
+            Classe: IEndereco
+            </summary>
+        </member>
+        <member name="T:Endereco.Interface.IEnderecoImpl">
+            <summary>
+            Autor: Luca
+            Data: 15/07/2022
+            Classe: IEnderecoImpl
+            </summary>
+        </member>
+    </members>
+</doc>

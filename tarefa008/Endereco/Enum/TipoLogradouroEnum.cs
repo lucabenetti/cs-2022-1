@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Endereco.Enum
+﻿namespace Endereco.Enum
 {
+    /// <summary>
+    /// Autor: Luca
+    /// Data: 15/07/2022
+    /// Classe: TipoLogradouroEnum
+    /// </summary>
     public enum TipoLogradouroEnum
     {
         Alameda,

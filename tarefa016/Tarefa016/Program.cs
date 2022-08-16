@@ -15,4 +15,18 @@ app.MapGet("/runtime", (IHostEnvironment hostEnvironment) =>
     return hostEnvironment.EnvironmentName;
 });
 
+app.MapGet("/closure", (IHostEnvironment hostEnvironment) =>
+{
+    int global = 1;
+    int retorno;
+
+    Action closure = delegate
+    {
+        retorno = global + 1;
+    };
+    closure();
+
+    return retorno;
+});
+
 app.Run();

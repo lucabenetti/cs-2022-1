@@ -31,6 +31,15 @@ app.MapGet("/closure", () =>
     return retorno;
 });
 
+app.MapGet("/logging", (ILogger<Program> logger) =>
+{
+    var teste = "teste";
+
+    logger.LogInformation(teste);
+
+    return teste;
+});
+
 app.MapGet("/generics", () =>
 {
     var gato = new Gato();

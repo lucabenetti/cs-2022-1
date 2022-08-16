@@ -3,6 +3,7 @@ using Tarefa016;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<IServicoAleatorio, ServicoAleatorio>();
 
 var app = builder.Build();
 
@@ -11,6 +12,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.MapGet("/di", (IServicoAleatorio servicoAleatorio) =>
+{
+    return servicoAleatorio.ObterMensagem();
+});
 
 app.MapGet("/runtime", (IHostEnvironment hostEnvironment) =>
 {

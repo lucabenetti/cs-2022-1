@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tarefa19", "Tarefa19.csproj", "{01CBDC32-990F-460A-BDC8-D4E8D4445FCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncapsulateField", "..\EncapsulateField\EncapsulateField.csproj", "{6F765EB4-AB53-42CD-947F-51A04CF88926}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractClass", "..\ExtractClass\ExtractClass.csproj", "{9CE0FCFF-4911-447D-94CC-D2EE46F2E910}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractInterface", "..\ExtractInterface\ExtractInterface.csproj", "{9D181E1A-1F58-4260-9DC2-2EB5B4AA9FF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractMethod", "..\ExtractMethod\ExtractMethod.csproj", "{AA96489A-9F11-462B-8B43-C65EDF3E0464}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractSubclass", "..\ExtractSubclass\ExtractSubclass.csproj", "{A7F78D5C-7B89-4B53-BEBF-F687423D9A5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractSuperclass", "..\ExtractSuperclass\ExtractSuperclass.csproj", "{84C9C64D-1963-46C9-8BD9-D0EBCC707AAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01CBDC32-990F-460A-BDC8-D4E8D4445FCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01CBDC32-990F-460A-BDC8-D4E8D4445FCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01CBDC32-990F-460A-BDC8-D4E8D4445FCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01CBDC32-990F-460A-BDC8-D4E8D4445FCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F765EB4-AB53-42CD-947F-51A04CF88926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F765EB4-AB53-42CD-947F-51A04CF88926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F765EB4-AB53-42CD-947F-51A04CF88926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F765EB4-AB53-42CD-947F-51A04CF88926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CE0FCFF-4911-447D-94CC-D2EE46F2E910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CE0FCFF-4911-447D-94CC-D2EE46F2E910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CE0FCFF-4911-447D-94CC-D2EE46F2E910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CE0FCFF-4911-447D-94CC-D2EE46F2E910}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D181E1A-1F58-4260-9DC2-2EB5B4AA9FF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D181E1A-1F58-4260-9DC2-2EB5B4AA9FF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D181E1A-1F58-4260-9DC2-2EB5B4AA9FF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D181E1A-1F58-4260-9DC2-2EB5B4AA9FF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA96489A-9F11-462B-8B43-C65EDF3E0464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA96489A-9F11-462B-8B43-C65EDF3E0464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA96489A-9F11-462B-8B43-C65EDF3E0464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA96489A-9F11-462B-8B43-C65EDF3E0464}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7F78D5C-7B89-4B53-BEBF-F687423D9A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7F78D5C-7B89-4B53-BEBF-F687423D9A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7F78D5C-7B89-4B53-BEBF-F687423D9A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7F78D5C-7B89-4B53-BEBF-F687423D9A5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84C9C64D-1963-46C9-8BD9-D0EBCC707AAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84C9C64D-1963-46C9-8BD9-D0EBCC707AAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84C9C64D-1963-46C9-8BD9-D0EBCC707AAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84C9C64D-1963-46C9-8BD9-D0EBCC707AAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99BEB373-7C34-4F03-BCCC-FE0790B96A84}
+	EndGlobalSection
+EndGlobal
